@@ -13,11 +13,18 @@ The core library dependency for **AegisR** daemon and terminal. `aegisrlib` prov
 
 ## Installation
 
-Add this to your `Cargo.toml`:
+To use `aegisrlib` in your Rust project, add the following to your `Cargo.toml`:
 
 ```toml
 [dependencies]
 aegisrlib = { git = "https://github.com/surelle-ha/aegisr", branch="main" }
+```
+
+For development or testing releases, change the branch to the desired version, e.g., `branch="1.0.2-development"`. Please note that unrelease versions may have breaking changes and untested features.
+
+```toml
+[dependencies]
+aegisrlib = { git = "https://github.com/surelle-ha/aegisr", branch="1.0.1-development" }
 ```
 
 ## Usage
