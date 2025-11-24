@@ -173,3 +173,21 @@ fn main() {
     println!("=======================================");
 }
 ```
+## TODO
+
+List of planned features and improvements:
+
+- [ ] Add data import/export functionality.
+- [ ] Privatize functions not needed externally.
+- [ ] Implement advanced querying capabilities.
+- [ ] Add support for data expiration and TTL.
+- [ ] Enhance encryption options for stored data.
+- [ ] Develop comprehensive test suite.
+- [ ] Improve documentation and examples.
+- [ ] Optimize performance for large datasets.
+- [ ] Add support for distributed storage.
+- [ ] Implement user authentication and access control.
+- [ ] Create a web-based management interface.
+- [ ] Integrate with popular frameworks and libraries.
+- [ ] Add logging and monitoring features.
+- [ ] Support for data versioning and history tracking.
